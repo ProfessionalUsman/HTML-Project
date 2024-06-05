@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #f1f1f1;
+    
+    padding: 15px 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo h3{
+   font-size: 26px;
+   color: #B8860B;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #7f7c7c;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.nav a:hover {
+    background-color: #B8860B;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.header-pic{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.intro{
+    text-align: center;
+   
+}
+
+.intro h6{
+    margin: 10px auto;
+    color: #7f7c7c;
+}
+.intro p{
+   margin: 10px 0;
+   color: #7f7c7c;
+   
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+   border-radius: 8px;
+   display: block;
+}
+
+.card-content{
+   padding: 20px;
+}
+
+.card-content h3{
+    font-size: 12px;
+    color: #B8860B;
+}
+.card-content p{
+    font-size: 8px;
+    color: #7f7c7c;
+    padding: 10px 0;
+}
+
+button{
+    margin: 10px 0;
+}
+.detail {
+    background-color: #B8860B;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.headings{
+    color: #B8860B;
+    text-align: start;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+.heading-link{
+    color: #B8860B;
+    text-align: start;
+    padding-bottom: 30px;
+    font-size: larger;
+    padding-left: 135px;
+}
+.headings2{
+    color: #B8860B;
+    text-align: start;
+    font-size: large;
+    padding-left: 40px;
+    
+}
+.container2{
+    padding-left: 40px;
+}
+.image{
+    border-radius: 8px;
+    width: 710px;
+    height: 350px;
+}
+.links{
+    padding-left: 40px;
+}
+.links2{
+    padding-left: 135px;
+}
+.images2{
+    width: 220px;
+    padding-left: 40px;
+}
+.pic-head{
+    color: #B8860B;
+    text-align: start;
+    padding-left: 35PX;
+}
+.pic-data{
+    width: 350px;
+    padding-left: 35PX;
+    color: #7f7c7c;
+}
+.table-data{
+    padding-top: 20px;
+    color: #7f7c7c;
+}
+.footer{
+    padding-top: 70px;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+}
+.links{
+    color: white;
+}
